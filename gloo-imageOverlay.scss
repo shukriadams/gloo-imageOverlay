@@ -1,0 +1,14 @@
+.gloo-imageOverlay{
+  position:relative;
+  overflow:hidden;
+
+  .gloo-imageOverlay-overlay{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+}
