@@ -1,7 +1,7 @@
 {
   "version" : "0.0.1",
   "dependencies" : {
-    "gloo-components/gloo-textOverlay" : "0.0.1",
-    "gloo-components/gloo-infiniteImage" : "0.0.1"
+    "gloo-textOverlay" : "0.0.1",
+    "gloo-infiniteImage" : "0.0.1"
   }
 }
