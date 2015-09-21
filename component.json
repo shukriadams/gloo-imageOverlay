@@ -1,5 +1,5 @@
 {
-  "version" : "0.0.1",
+  "name" : "gloo-imageOverlay",
   "dependencies" : {
     "gloo-textOverlay" : "0.0.1",
     "gloo-infiniteImage" : "0.0.1"
