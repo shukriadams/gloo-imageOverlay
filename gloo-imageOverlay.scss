@@ -1,14 +1,27 @@
 .gloo-imageOverlay{
+
   position:relative;
   overflow:hidden;
 
   .gloo-imageOverlay-overlay{
     position: absolute;
     top: 50%;
+    left: 50%;
     width: 100%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+
+    // locks content to grid dimensions
+    max-width: $gloo-grid-rowWidth;
+  }
+
+  // note : additional wrapper with position relative and padding to mimic grid padding, without having
+  // to carry the padding logic over to child
+  // locks content to grid dimensions
+  .gloo-textOverlay-collar{
+    padding-left:$gloo-grid-columnGutter/2;
+    padding-right:$gloo-grid-columnGutter/2;
   }
 
 }
