@@ -1,0 +1,5 @@
+{
+  "_modelName" : "glooImageOverlay",
+  "image" : "<%= glooInfiniteImage %>",
+  "overlay" : "<%= glooTextOverlay %>"
+}

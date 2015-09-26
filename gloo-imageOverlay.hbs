@@ -2,8 +2,10 @@
     {{#if image}}
         {{>gloo-infiniteImage image}}
     {{/if}}
-    <div class="gloo-imageOverlay-overlay">
-        {{>gloo-textOverlay overlay}}
-    </div>
 
+    {{#if overlay}}
+        <div class="gloo-imageOverlay-overlay">
+            {{>gloo-textOverlay overlay}}
+        </div>
+    {{/if}}
 </div>
