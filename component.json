@@ -2,7 +2,7 @@
   "name" : "gloo-imageOverlay",
   "dependencies" : {
     "gloo-textOverlay" : "0.0.1",
-    "gloo-infiniteImage" : "0.0.1",
+    "gloo-infiniteImage" : "0.0.2",
     "gloo-grid": "0.0.1"
   }
 }
